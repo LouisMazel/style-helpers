@@ -1,4 +1,4 @@
-# lm-scss-helpers
+# style-helpers
 
 > CSS library helpers
 
