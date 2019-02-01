@@ -1,16 +1,18 @@
 # lm-scss-helpers
 
-> LM scss library
+> CSS library helpers
+
+`npm install --save style-helpers`
+
+## Dev Mode
+
+`npm run watch`
 
 ## To compile SCSS
 
 - Install dependency
 
 `npm i`
-
-- Dev Mode
-
-`npm run watch`
 
 - Build
 
