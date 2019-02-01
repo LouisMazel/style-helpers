@@ -2,14 +2,14 @@
 
 // Font-size
 @each $size in $font-sizes {
-  .lm-fs-#{$size} {
+  .fs-#{$size} {
     font-size: #{$size}px !important;
   }
 }
 
 // Font-weight
 @each $weight in $font-weights {
-  .lm-fw-#{$weight} {
+  .fw-#{$weight} {
     font-weight: #{$weight};
   }
 }

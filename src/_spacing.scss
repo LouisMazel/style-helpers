@@ -17,33 +17,33 @@
 
     $i: index($spacing-sizes, $size);
 
-    .lm-#{$p}r-#{$i} {
+    .#{$p}r-#{$i} {
       #{$pm}-right: #{$size} !important;
     }
 
-    .lm-#{$p}t-#{$i} {
+    .#{$p}t-#{$i} {
       #{$pm}-top: #{$size} !important;
     }
 
-    .lm-#{$p}b-#{$i} {
+    .#{$p}b-#{$i} {
       #{$pm}-bottom: #{$size} !important;
     }
 
-    .lm-#{$p}l-#{$i} {
+    .#{$p}l-#{$i} {
       #{$pm}-left: #{$size} !important;
     }
 
-    .lm-#{$p}x-#{$i} {
+    .#{$p}x-#{$i} {
       #{$pm}-left: #{$size} !important;
       #{$pm}-right: #{$size} !important;
     }
 
-    .lm-#{$p}y-#{$i} {
+    .#{$p}y-#{$i} {
       #{$pm}-top: #{$size} !important;
       #{$pm}-bottom: #{$size} !important;
     }
 
-    .lm-#{$p}-#{$i} {
+    .#{$p}-#{$i} {
       #{$pm}: #{$size} !important;
     }
   }
