@@ -1,7 +1,7 @@
 {
   "name": "style-helpers",
-  "version": "0.1.1",
-  "description": "LM SCSS library",
+  "version": "0.1.2",
+  "description": "CSS helpers library",
   "files": [
     "dist/"
   ],
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LouisMazel/lm-scss-helpers.git"
+    "url": "git+https://github.com/LouisMazel/style-helpers.git"
   },
   "keywords": [
     "SCSS",
@@ -27,9 +27,9 @@
   "author": "Louis Mazel <mazuel.loic@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LouisMazel/lm-scss-helpers/issues"
+    "url": "https://github.com/LouisMazel/style-helpers/issues"
   },
-  "homepage": "https://github.com/LouisMazel/lm-scss-helpers#readme",
+  "homepage": "https://github.com/LouisMazel/style-helpers#readme",
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
