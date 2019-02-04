@@ -15,36 +15,36 @@
   @each $size in $spacing-sizes {
     $p: set-var-class($pm);
 
-    $i: index($spacing-sizes, $size);
+    $i: index($spacing-sizes, $size) - 1;
 
     .#{$p}r-#{$i} {
-      #{$pm}-right: #{$size} !important;
+      #{$pm}-right: #{$size};
     }
 
     .#{$p}t-#{$i} {
-      #{$pm}-top: #{$size} !important;
+      #{$pm}-top: #{$size};
     }
 
     .#{$p}b-#{$i} {
-      #{$pm}-bottom: #{$size} !important;
+      #{$pm}-bottom: #{$size};
     }
 
     .#{$p}l-#{$i} {
-      #{$pm}-left: #{$size} !important;
+      #{$pm}-left: #{$size};
     }
 
     .#{$p}x-#{$i} {
-      #{$pm}-left: #{$size} !important;
-      #{$pm}-right: #{$size} !important;
+      #{$pm}-left: #{$size};
+      #{$pm}-right: #{$size};
     }
 
     .#{$p}y-#{$i} {
-      #{$pm}-top: #{$size} !important;
-      #{$pm}-bottom: #{$size} !important;
+      #{$pm}-top: #{$size};
+      #{$pm}-bottom: #{$size};
     }
 
     .#{$p}-#{$i} {
-      #{$pm}: #{$size} !important;
+      #{$pm}: #{$size};
     }
   }
 }

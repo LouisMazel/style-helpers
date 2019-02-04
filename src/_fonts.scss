@@ -3,7 +3,7 @@
 // Font-size
 @each $size in $font-sizes {
   .fs-#{$size} {
-    font-size: #{$size}px !important;
+    font-size: #{$size}px;
   }
 }
 
