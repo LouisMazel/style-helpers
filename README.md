@@ -4,6 +4,10 @@
 
 `npm install --save style-helpers`
 
+## Classes list & Rules
+
+[Enjoy here](https://louismazel.github.io/style-helpers/)
+
 ## Usage
 
 ### CSS import
