@@ -1,6 +1,6 @@
 {
   "name": "style-helpers",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "CSS helpers library",
   "files": [
     "dist/"
@@ -41,7 +41,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-sass-lint": "^1.4.0",
     "gulp-sourcemaps": "^2.6.4",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
     "run-sequence": "^2.2.1",
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0",

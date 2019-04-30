@@ -1,69 +1,62 @@
 .btn {
-  padding: 10px 20px;
-  margin-bottom: 20px;
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
+  border: 1px solid transparent;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 12px;
   outline: none;
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-color: dodgerblue;
+  background-color: $primary-color;
   color: white;
+  display: inline-block;
+  border-radius: 4px;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 24px;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
 
-  &:hover {
-    background-color: darken(dodgerblue, 10%);
-    box-shadow:
-      0 0 8px 0 rgba(232, 237, 250, 0.6),
-      0 2px 4px 0 rgba(232, 237, 250, 0.5);
+  &:hover,
+  &:focus {
+    background-color: darken($primary-color, 10%);
+    box-shadow: 0 0 0 0.2rem rgba($primary-color, 0.5);
   }
 
-  &.option {
-    background-color: #424242;
-
-    &:hover {
-      background-color: darken(#424242, 10%);
-    }
+  &-sm {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
   }
 
-  &-success {
-    background-color: yellowgreen;
-
-    &:hover {
-      background-color: darken(yellowgreen, 10%);
-    }
-  }
-
-  &-dark {
-    background-color: #424242;
-
-    &:hover {
-      background-color: darken(#424242, 10%);
-    }
-  }
-
-  &-danger {
-    background-color: orangered;
-
-    &:hover {
-      background-color: darken(orangered, 10%);
-    }
+  &-lg {
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
   }
 }
 
-.dark {
-  .btn {
-    &:hover {
-      box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6), 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    }
+@import './variables/_btn_types.scss';
 
-    &.option {
-      background-color: #424242;
+@each $name, $color in $btn_types {
+  @if (type-of($color) == 'color') {
+    .btn-#{$name} {
+      background-color: $color;
 
-      &:hover {
-        background-color: lighten(#424242, 10%);
+      &:hover,
+      &:focus {
+        background-color: darken($color, 10%);
+        box-shadow: 0 0 0 0.2rem rgba($color, 0.5);
+      }
+
+      &-outline {
+        background-color: transparent;
+        border: 1px solid $color;
+        color: $color;
+
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          box-shadow: 0 0 0 0.2rem rgba($color, 0.5);
+        }
       }
     }
   }
