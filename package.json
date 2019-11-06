@@ -1,6 +1,6 @@
 {
   "name": "style-helpers",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "CSS helpers library",
   "files": [
     "dist/"
@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "stylelint 'src/'",
     "lint:fix": "npm run lint -- --fix",
-    "build": "npm run lint && gulp build",
+    "build": "gulp build",
+    "before-publish": "npm run lint && npm i && npm run build",
     "watch": "gulp"
   },
   "repository": {

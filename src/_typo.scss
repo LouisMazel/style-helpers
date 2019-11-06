@@ -31,3 +31,13 @@
 .text-right {
   text-align: right;
 }
+
+@import './variables/_color_types.scss';
+
+@each $name, $color in $color_types {
+  @if (type-of($color) == 'color') {
+    .text-#{$name} {
+      color: $color;
+    }
+  }
+}
