@@ -1,6 +1,6 @@
 @import './_colors.scss';
 
-$btn_types: (
+$color_types: (
   primary: $primary-color,
   secondary: $secondary-color,
   success: $success-color,
@@ -10,5 +10,7 @@ $btn_types: (
   warning: $warning-color,
   light: $light-color,
   dark: $dark-color,
-  white: white
+  default: $default-color,
+  white: white,
+  black: black
 );

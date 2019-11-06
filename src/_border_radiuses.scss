@@ -1,6 +1,6 @@
 @import './variables/_radiuses.scss';
 
-@each $size, $value in $border-radiuses {
+@each $size, $value in $radiuses {
   .br-#{$size} {
     border-radius: #{$value};
   }
