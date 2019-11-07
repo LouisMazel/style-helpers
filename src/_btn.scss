@@ -56,6 +56,20 @@
 
 a.btn {
   text-decoration: none;
+  line-height: 42px;
+
+  &-sm {
+    line-height: 36px;
+  }
+
+  &-lg {
+    line-height: 48px;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
 }
 
 @import './variables/_color_types.scss';
