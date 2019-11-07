@@ -54,6 +54,10 @@
   }
 }
 
+a.btn {
+  text-decoration: none;
+}
+
 @import './variables/_color_types.scss';
 
 @each $name, $color in $color_types {
