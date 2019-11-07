@@ -3,7 +3,6 @@
 @import './_label.scss';
 @import './_dot.scss';
 @import './_link.scss';
-@import './_titles.scss';
 @import './_animation.scss';
 @import './_position.scss';
 @import './_flex.scss';
@@ -38,5 +37,4 @@ ul,
 figure {
   margin: 0;
   padding: 0;
-  font-weight: 400;
 }

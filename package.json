@@ -1,7 +1,7 @@
 {
   "name": "style-helpers",
-  "version": "0.2.5",
-  "description": "CSS helpers library",
+  "version": "0.2.6",
+  "description": "CSS helpers framework",
   "files": [
     "dist/"
   ],
