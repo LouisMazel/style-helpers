@@ -1,4 +1,4 @@
-const { src, pipe, series, dest, watch } = require('gulp')
+const { src, series, dest, watch } = require('gulp')
 const sass = require('gulp-sass')
 const rename = require('gulp-rename')
 const prefix = require('gulp-autoprefixer')
