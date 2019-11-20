@@ -2,12 +2,6 @@
   color: white;
 }
 
-.dots-text {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .text-muted-white {
   color: rgba(255, 255, 255, 0.54);
 }
@@ -40,4 +34,20 @@
       color: $color;
     }
   }
+}
+
+@import './variables/_mixins.scss';
+
+.dots-text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dots-text-3 {
+  @include multiLineEllipsis($lineHeight: 1.3em, $lineCount: 3, $bgColor: white);
+}
+
+.dots-text-2 {
+  @include multiLineEllipsis($lineHeight: 1.3em, $lineCount: 2, $bgColor: white);
 }
