@@ -20,10 +20,6 @@ var sassOptions = {
   outputStyle: 'expanded'
 };
 
-var prefixerOptions = {
-  browsers: ['last 2 versions']
-};
-
 // BUILD SUBTASKS
 // ---------------
 
@@ -33,7 +29,7 @@ const styles = () => {
     .pipe(sourcemaps.init())
     .pipe(sass.sync(sassOptions).on('error', sass.logError))
     .pipe(dest('./dist/'))
-    .pipe(prefix(prefixerOptions))
+    .pipe(prefix())
     .pipe(rename('main.css'))
     .pipe(dest('./dist/'))
     .pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))

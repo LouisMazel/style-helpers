@@ -1,6 +1,6 @@
 {
   "name": "style-helpers",
-  "version": "0.2.9",
+  "version": "1.0.0",
   "description": "CSS helpers framework",
   "files": [
     "dist/"
@@ -32,8 +32,8 @@
   },
   "homepage": "https://github.com/LouisMazel/style-helpers#readme",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
     "gulp-cssnano": "^2.1.3",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.1",
@@ -41,11 +41,11 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-sass-lint": "^1.4.0",
-    "gulp-sourcemaps": "^2.6.4",
-    "node-sass": "^4.12.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.13.0",
     "run-sequence": "^2.2.1",
     "stylelint": "^9.10.1",
-    "stylelint-config-standard": "^18.2.0",
-    "stylelint-scss": "^3.5.1"
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-scss": "^3.13.0"
   }
 }

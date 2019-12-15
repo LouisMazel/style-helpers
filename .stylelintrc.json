@@ -6,10 +6,12 @@
   "rules": {
     "color-hex-case": "upper",
     "string-quotes": "single",
+    "no-empty-source": null,
     "unit-case": "lower",
     "property-case": "lower",
     "property-no-vendor-prefix": true,
     "value-no-vendor-prefix": true,
-    "at-rule-no-unknown": null
+    "at-rule-no-unknown": null,
+    "no-descending-specificity": null
   }
 }
