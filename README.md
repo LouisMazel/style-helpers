@@ -12,8 +12,8 @@
 
 ### CSS import
 
-```css
-@import "path_to_your_node_modules/style-helpers";
+```scss
+@import "style-helpers";
 ```
 
 ### HTML import
@@ -24,8 +24,8 @@
 
 ### JS import
 
-```JS
-import 'path_to_your_node_modules/style-helpers'
+```js
+import 'style-helpers'
 ```
 
 ## Dev Mode
