@@ -1,6 +1,7 @@
-@import './mixins/index';
 @import './variables/index';
+@import './mixins/index';
 @import './_bg_colors';
+@import './_fill_colors';
 @import './_label';
 @import './_dot';
 @import './_link';
@@ -45,11 +46,12 @@ figure {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
+html,
+body,
+#app,
+button,
+input {
+  font: $base-font-weight $base-font-size $base-font-family;
+  line-height: $base-line-height;
+  font-kerning: normal;
 }
